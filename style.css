@@ -12,6 +12,7 @@ option{
 
 a{
     text-decoration-line: none;
+    color:black;
 }
 
 p {
@@ -33,6 +34,8 @@ p {
     font-family: 'Pretendard';
     padding:5px 15px 5px 15px;
 }
+
+
 
 #menu{
     display:flex;
@@ -133,6 +136,44 @@ p {
 }
 #weather p{
     font-family: 'Pretendard';
-    font-size:medium;
-    font-weight:400;
+    font-size:xx-large;
+    font-weight:600;
+}
+#weatherBox{
+    margin-left: 200px;
+    margin-top: 200px;
+    font-family: 'Pretendard';
+    font-weight: 600;
+}
+
+#imgBox{
+    position:absolute;
+    top:170px;
+    left: 600px;
+}
+
+.rankingBox{
+    width:256px;
+    height:187.2px;
+    border:4px solid gainsboro;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#height, #low{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top:70px;
+}
+
+#height div, #low div{
+    margin: 0 30px 0 30px;
+}
+
+#rankingTool{
+    width:100%;
+    height:500px;
 }

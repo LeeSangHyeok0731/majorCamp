@@ -14,7 +14,7 @@
                     <img src="img/날씨조은도시.png" id="mainLogo">
                 </a>
                 <div class="ul_tag">
-                    <a href="sand.html">소개</a>
+                    <a href="introduce.html" >소개</a>
                     <a href="todayWeather.html" id="selectMenu">오늘의 날씨</a>
                     <a href="ranking.html">랭킹</a>
                 </div>
@@ -22,7 +22,7 @@
         </div>
     </header>
     <main>
-        <select onchange="chageLangSelect()" id="mySelect" value="GW">
+        <select onchange="chageLangSelect()" id="mySelect">
             <option value="Yach’on">광주광역시</option>
             <option value="Seoul">서울특별시</option>
             <option value="Busan">부산광역시</option>
@@ -30,15 +30,14 @@
             <option value="Incheon">인천광역시</option>
             <option value="Daejeon">대전광역시</option>
             <option value="Ulsan">울산광역시</option>
-            <option value="Jeju">제주특별자치도</option>
+            <option value="Jeju City">제주특별자치도</option>
             <option value="Sejong">세종특별자치시</option>
         </select>
         <div id="weatherCondition">
             <div id="text_3">
-                <p>오늘 </p>
+                <p style="margin-right:10px;">오늘</p>
                 <p id="cityname"></p>
-                <p>의</p>
-                <p>날씨는</p>
+                <p>의 날씨는</p>
             </div>
             <div id="text_4">
                 <p id="condition"></p>
@@ -56,6 +55,7 @@
                 <p></p>
             </div>
         </div>
+        <img src="img/Sunny.png" id="imgBox">
     </main>
     <script src="weather.js"></script>
 </body>
