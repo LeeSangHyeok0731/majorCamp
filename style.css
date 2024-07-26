@@ -1,0 +1,138 @@
+body{
+    margin:0px;
+}
+
+header{
+    display: flex;
+}
+
+option{
+    text-align-last: center;
+}
+
+a{
+    text-decoration-line: none;
+}
+
+p {
+    font-family: 'Pretendard';
+    margin:0;
+}
+
+.ul_tag{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 500px;
+}
+
+.ul_tag a{
+    color:black;
+    font-weight:bolder;
+    font-size:large;
+    font-family: 'Pretendard';
+    padding:5px 15px 5px 15px;
+}
+
+#menu{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    margin:30px;
+    margin-bottom : 0;
+    width:800px;
+}
+
+#mainLogo{
+    width: 155px;
+    height: 28px;
+    margin-right: 150px;
+}
+
+#rainingWindow{
+    position:absolute;
+    height:695px;
+    width:422px;
+    margin-left:1114px;
+    overflow: hidden;
+}
+
+#introduceText{
+    margin-top: 200px;
+}
+
+#text_1{
+    font-family: 'Pretendard';
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+#text_2{
+    font-family: 'Pretendard';
+
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+#underLine{
+    height:5px;
+    width:150px;
+    background-color:black;
+    border-radius:15px;
+}
+
+#selectMenu{
+    background-color:black;
+    color:white;
+    border-radius:10px;
+}
+
+#mySelect{
+    border-radius: 15px;
+    padding:10px 30px 10px 30px;
+    display: flex;
+    text-align-last: center;
+    margin-left:200px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-family: 'Pretendard';
+
+}
+
+#weatherCondition{
+    margin-left:200px;
+
+}
+
+#text_3, #text_4{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size:x-large;
+    font-weight: 600;
+    font-family: 'Pretendard';
+
+    height: 55px;
+}
+
+#text_4{
+    padding-left: 200px;
+}
+
+#cityname, #condition{
+    font-size:xx-large;
+    font-weight: bolder;
+
+    font-family: 'Pretendard';
+
+}
+
+#weather{
+    display: flex;
+    flex-direction: row;
+}
+#weather p{
+    font-family: 'Pretendard';
+    font-size:medium;
+    font-weight:400;
+}
