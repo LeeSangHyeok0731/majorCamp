@@ -1,6 +1,6 @@
 function onGeoOk(cityName) {
     console.log(cityName);
-    const apiKey = 'ca06f43363a1fc2e0facf406955d351e';
+    const apiKey = '';
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${apiKey}&units=metric`;
     
     fetch(url).then(response => response.json())
